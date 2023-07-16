@@ -1,10 +1,11 @@
 package hw2.Methods;
 
-import java.util.*;
+import java.util.Set;
+import java.util.TreeSet;
 
 class Human implements Comparable<Human> {
-    private String name;
-    private int age;
+    private final String name;
+    private final int age;
 
     public Human(String name, int age) {
         this.name = name;
@@ -24,7 +25,7 @@ class Human implements Comparable<Human> {
     }
 }
 
-public class ComparableExample{
+public class ComparableExample {
     public static void main(String[] args) {
         Set<Human> people = new TreeSet<>();
 

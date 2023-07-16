@@ -1,22 +1,17 @@
 package hw2.Methods;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.List;
 
 public class Individual {
-    private String name;
-    private int age;
+    private final String name;
+    private final int age;
 
     public Individual(String name, int age) {
         this.name = name;
         this.age = age;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public int getAge() {
-        return age;
     }
 
     public static void main(String[] args) {
@@ -36,5 +31,13 @@ public class Individual {
         for (Individual person : people) {
             System.out.println(person.getName() + " " + person.getAge());
         }
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getAge() {
+        return age;
     }
 }

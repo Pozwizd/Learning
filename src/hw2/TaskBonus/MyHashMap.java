@@ -90,7 +90,7 @@ public class MyHashMap<K, V> implements MyMap<K, V> {
     public K[] keyArray() {
         K[] keys = (K[]) new Object[size];
         int i = 0;
-        for (Entry<K,V> entry : table) {
+        for (Entry<K, V> entry : table) {
             for (; entry != null; entry = entry.next) {
                 keys[i++] = entry.key;
             }

@@ -6,18 +6,6 @@ public class MyLinkedList<T> implements MyList<T>, Queue<T> {
     private Node<T> last;
     private int size;
 
-    private static class Node<T> {
-        T data;
-        Node<T> prev;
-        Node<T> next;
-
-        Node(T data, Node<T> prev, Node<T> next) {
-            this.data = data;
-            this.prev = prev;
-            this.next = next;
-        }
-    }
-
     @Override
     public int size() {
         return size;
@@ -212,5 +200,17 @@ public class MyLinkedList<T> implements MyList<T>, Queue<T> {
             }
         }
         return node;
+    }
+
+    private static class Node<T> {
+        T data;
+        Node<T> prev;
+        Node<T> next;
+
+        Node(T data, Node<T> prev, Node<T> next) {
+            this.data = data;
+            this.prev = prev;
+            this.next = next;
+        }
     }
 }

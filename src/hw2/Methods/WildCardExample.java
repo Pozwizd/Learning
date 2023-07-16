@@ -4,11 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class WildCardExample<T> {
-    private List<? super T> contents = new ArrayList<>();
-
-    public void add(T element) {
-        contents.add(element);
-    }
+    private final List<? super T> contents = new ArrayList<>();
 
     public static void main(String[] args) {
         WildCardExample<Integer> intBox = new WildCardExample<>();
@@ -19,5 +15,9 @@ public class WildCardExample<T> {
 
         WildCardExample<Object> objectBox = new WildCardExample<>();
         objectBox.add("Hello");
+    }
+
+    public void add(T element) {
+        contents.add(element);
     }
 }
