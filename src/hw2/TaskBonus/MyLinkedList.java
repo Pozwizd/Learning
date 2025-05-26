@@ -1,6 +1,10 @@
 package hw2.TaskBonus;
 
-public class MyLinkedList<T> implements MyList<T>, Queue<T> {
+import java.util.Iterator;
+
+
+
+public class MyLinkedList<T> implements MyList<T>, Queue<T>, Iterable<T> {
 
     private Node<T> first;
     private Node<T> last;
@@ -211,6 +215,30 @@ public class MyLinkedList<T> implements MyList<T>, Queue<T> {
             this.data = data;
             this.prev = prev;
             this.next = next;
+        }
+    }
+    
+    @Override
+    public Iterator<T> iterator() {
+        return new LinkedListIterator();
+    }
+    
+    private class LinkedListIterator implements Iterator<T> {
+        private Node<T> current = first;
+        
+        @Override
+        public boolean hasNext() {
+            return current != null;
+        }
+        
+        @Override
+        public T next() {
+            if (!hasNext()) {
+                throw new IndexOutOfBoundsException("No more elements");
+            }
+            T data = current.data;
+            current = current.next;
+            return data;
         }
     }
 }

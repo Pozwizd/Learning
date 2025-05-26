@@ -1,6 +1,10 @@
 package hw2.TaskBonus;
 
-public class MyArrayList<T> implements MyList<T> {
+import java.util.Iterator;
+
+
+
+public class MyArrayList<T> implements MyList<T>, Iterable<T> {
     private Object[] elements;
     private int size;
 
@@ -83,7 +87,8 @@ public class MyArrayList<T> implements MyList<T> {
         if (index < 0 || index >= size) {
             throw new IndexOutOfBoundsException("Index is out of bounds");
         }
-        return (T) elements[index];
+        T element = (T) elements[index];
+        return element;
     }
 
     @Override
@@ -104,5 +109,27 @@ public class MyArrayList<T> implements MyList<T> {
             }
         }
         return -1;
+    }
+    
+    @Override
+    public Iterator<T> iterator() {
+        return new ArrayListIterator();
+    }
+    
+    private class ArrayListIterator implements Iterator<T> {
+        private int currentIndex = 0;
+        
+        @Override
+        public boolean hasNext() {
+            return currentIndex < size;
+        }
+        
+        @Override
+        public T next() {
+            if (!hasNext()) {
+                throw new IndexOutOfBoundsException("No more elements");
+            }
+            return get(currentIndex++);
+        }
     }
 }
