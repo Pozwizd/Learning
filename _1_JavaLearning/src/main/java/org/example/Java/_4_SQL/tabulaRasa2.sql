@@ -1,0 +1,11 @@
+use shop2;
+DELETE FROM orders;
+DELETE FROM user_details;
+DELETE FROM shopping_cart;
+DELETE FROM product;
+DELETE FROM users;
+ALTER TABLE shopping_cart AUTO_INCREMENT = 1;
+ALTER TABLE users AUTO_INCREMENT = 1;
+ALTER TABLE user_details AUTO_INCREMENT = 1;
+ALTER TABLE product AUTO_INCREMENT = 1;
+ALTER TABLE orders AUTO_INCREMENT = 1;
