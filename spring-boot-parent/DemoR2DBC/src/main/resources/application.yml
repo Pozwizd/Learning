@@ -1,0 +1,15 @@
+server:
+  port: 8080
+
+
+spring:
+  r2dbc:
+
+    url: r2dbc:postgresql://localhost:5432/r2dbctest
+    username: postgres
+    password: "0000"
+    pool:
+      max-size: 50
+      max-acquire-time: 45s
+      max-idle-time: 30m
+      max-create-connection-time: 45s

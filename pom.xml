@@ -10,8 +10,8 @@
 
     <modules>
         <module>_1_JavaLearning</module>
-        <module>DataAccessObject</module>
-        <module>SpringLearn</module>
+        <module>_2_DataAccessObject</module>
+        <module>_3_SpringLearn</module>
     </modules>
 
     <properties>
@@ -26,6 +26,13 @@
 
     <build>
         <pluginManagement>
+            <plugins>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-compiler-plugin</artifactId>
+                    <version>3.14.0</version>
+                </plugin>
+            </plugins>
         </pluginManagement>
     </build>
 </project>

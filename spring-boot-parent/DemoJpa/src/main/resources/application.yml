@@ -1,0 +1,21 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: ExamplesArchive
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/jpatest
+    username: postgres
+    password: "0000"
+    driver-class-name: org.postgresql.Driver
+
+
+logging:
+  level:
+    com.zaxxer.hikari.HikariConfig: info
+    org.hibernate.SQL: info
+    org:
+      springframework:
+        security: info
