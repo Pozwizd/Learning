@@ -5,10 +5,6 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/DataAccessObject/pom.xml" />
-        <option value="$PROJECT_DIR$/DemoJpa/pom.xml" />
-        <option value="$PROJECT_DIR$/DemoR2DBC/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-boot-parent/pom.xml" />
       </list>
     </option>
   </component>
