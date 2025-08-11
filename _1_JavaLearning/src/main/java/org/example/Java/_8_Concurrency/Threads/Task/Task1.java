@@ -40,7 +40,7 @@ public class Task1 {
                     }
                     System.out.print(letter);
                     switchToNextThread();
-                    monitor.notifyAll();
+                    monitor.wait();
                 }
             } catch (InterruptedException e) {
                 e.printStackTrace();

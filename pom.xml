@@ -13,6 +13,7 @@
         <module>_2_DataAccessObject</module>
         <module>_3_SpringLearn</module>
         <module>spring-boot-parent</module>
+        <module>JavaAdvanced</module>
     </modules>
 
     <properties>
