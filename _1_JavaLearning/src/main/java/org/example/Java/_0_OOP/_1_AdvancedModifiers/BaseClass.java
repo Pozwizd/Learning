@@ -55,7 +55,7 @@ public abstract class BaseClass {
     // --- 3. Методы с другими модификаторами ---
 
     /**
-     * final: Этот метод нельзя переопредел��ть (override) в подклассах.
+     * final: Этот метод нельзя переопределить (override) в подклассах.
      */
     public final void finalMethod() {
         System.out.println("[BaseClass] Это финальный (final) метод. Его нельзя переопределить.");

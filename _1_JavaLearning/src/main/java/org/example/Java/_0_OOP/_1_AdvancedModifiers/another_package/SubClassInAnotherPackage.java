@@ -27,7 +27,7 @@ public class SubClassInAnotherPackage extends BaseClass {
     }
 
     // void packagePrivateMethod() { ... }
-    // НЕВОЗМОЖНО: Метод с доступо�� package-private не виден за пределами своего пакета.
+    // НЕВОЗМОЖНО: Метод с доступом package-private не виден за пределами своего пакета.
     // Мы не можем его ни вызвать, ни переопределить.
 
     public void testAccessFromAnotherPackage() {

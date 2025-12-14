@@ -158,8 +158,7 @@ class Computer {
 }
 
 public class CommandStart {
-    public static void main
-            (String[] args) {
+    public static void main(String[] args) {
         Computer computer = new Computer();
         Invoker invoker = new Invoker();
 
