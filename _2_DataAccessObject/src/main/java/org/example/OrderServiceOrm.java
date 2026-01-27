@@ -1,11 +1,10 @@
 package org.example;
 
-
 import Entity.Product;
 import Entity.ShoppingCart;
 import Entity.User;
 import dao.hibernate.ShoppingCartOrmDao;
-import models.Order;
+import Entity.Order;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.hibernate.SessionFactory;
@@ -34,7 +33,8 @@ public class OrderServiceOrm {
             List<String> productNames = new ArrayList<>();
             List<Integer> quantities = new ArrayList<>();
             for (int i = 0; i < user.getShoppingCarts().size(); i++) {
-                productNames.add(em.find(Product.class, user.getShoppingCarts().get(i).getProduct().getId()).getProductName());
+                productNames.add(
+                        em.find(Product.class, user.getShoppingCarts().get(i).getProduct().getId()).getProductName());
                 quantities.add(user.getShoppingCarts().get(i).getQuantity());
             }
 
@@ -63,15 +63,16 @@ public class OrderServiceOrm {
             return order;
         } catch (Exception e) {
             logger.error("Error while creating order", e);
-            if(em != null) {
+            if (em != null) {
                 em.getTransaction().rollback();
             }
             return null;
         } finally {
-            if(em != null)
+            if (em != null)
                 em.close();
         }
     }
+
     private String getProductNames(List<String> products, List<Integer> quantity) {
 
         StringBuilder builder = new StringBuilder();

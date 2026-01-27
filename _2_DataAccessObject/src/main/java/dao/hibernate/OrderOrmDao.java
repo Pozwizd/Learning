@@ -1,14 +1,13 @@
 package dao.hibernate;
 
-
-import models.Order;
+import Entity.Order;
 import utils.EntityManagerUtil;
 
 import javax.persistence.EntityManager;
 import javax.persistence.Query;
 import java.util.List;
 
-public class OrderOrmDao implements OrderDao{
+public class OrderOrmDao implements OrderDao {
 
     @Override
     public void createOrder(Order order) {
@@ -19,8 +18,7 @@ public class OrderOrmDao implements OrderDao{
             Order orderMerge = new Order(
                     order.getUser(),
                     order.getOrderList(),
-                    order.getTotalPrice()
-            );
+                    order.getTotalPrice());
             em.persist(orderMerge);
             em.getTransaction().commit();
         } catch (Exception e) {

@@ -1,10 +1,9 @@
 package dao.hibernate;
 
-
 import Entity.Product;
 import Entity.ShoppingCart;
 import Entity.User;
-import models.Order;
+import Entity.Order;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.example.OrderServiceOrm;
@@ -23,7 +22,6 @@ import java.sql.SQLException;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class OrderServiceOrmTest {
-
 
     private static final Logger logger = LogManager.getLogger(OrderServiceOrmTest.class);
 
@@ -55,15 +53,14 @@ class OrderServiceOrmTest {
             699.99,
             12);
 
-    private final ShoppingCart shoppingCart = new ShoppingCart(user,product,4);
-    private final ShoppingCart shoppingCart2 = new ShoppingCart(user,product2,1);
+    private final ShoppingCart shoppingCart = new ShoppingCart(user, product, 4);
+    private final ShoppingCart shoppingCart2 = new ShoppingCart(user, product2, 1);
 
-    private final ShoppingCart shoppingCartUser2 = new ShoppingCart(user2,product,4);
-    private final ShoppingCart shoppingCartUser2_2 = new ShoppingCart(user2,product2,1);
-
+    private final ShoppingCart shoppingCartUser2 = new ShoppingCart(user2, product, 4);
+    private final ShoppingCart shoppingCartUser2_2 = new ShoppingCart(user2, product2, 1);
 
     @BeforeEach
-    public void createObjectsForTesting(){
+    public void createObjectsForTesting() {
 
         EntityManager em = null;
         try {
