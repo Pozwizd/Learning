@@ -7,9 +7,9 @@
     <persistence-unit name="myApp">
         <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
         <properties>
-            <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/shop2"/>
-            <property name="javax.persistence.jdbc.user" value="root"/>
-            <property name="javax.persistence.jdbc.password" value="0000"/>
+            <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/DB_NAME_HERE"/>
+            <property name="javax.persistence.jdbc.user" value="DB_USER_HERE"/>
+            <property name="javax.persistence.jdbc.password" value="DB_PASSWORD_HERE"/>
             <property name="javax.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver"/>
 
             <property name="hibernate.dialect" value="org.hibernate.dialect.MySQL8Dialect"/>
