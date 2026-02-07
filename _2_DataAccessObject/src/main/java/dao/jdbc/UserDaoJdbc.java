@@ -17,8 +17,6 @@ public class UserDaoJdbc implements UserDao {
 
     private static final Logger LOGGER = LogManager.getLogger(UserDaoJdbc.class);
 
-    private Connection connection;
-
     public UserDaoJdbc() {
 
     }
