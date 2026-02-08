@@ -12,9 +12,9 @@ public class ConnectionPool {
 
     static {
         dataSource = new BasicDataSource();
-        dataSource.setUrl("jdbc:mysql://localhost:3306/shop");
-        dataSource.setUsername("root");
-        dataSource.setPassword("0000");
+        dataSource.setUrl(ConfigLoader.getUrl());
+        dataSource.setUsername(ConfigLoader.getUsername());
+        dataSource.setPassword(ConfigLoader.getPassword());
         dataSource.setMinIdle(15);
         dataSource.setMaxIdle(25);
         dataSource.setMaxOpenPreparedStatements(100);
