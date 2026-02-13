@@ -47,3 +47,7 @@ build/
 # Database configuration
 database.properties
 *.ser
+
+# Local offline script outputs
+.out/
+_1_JavaLearning/.out/
