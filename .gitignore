@@ -46,3 +46,4 @@ build/
 
 # Database configuration
 database.properties
+*.ser

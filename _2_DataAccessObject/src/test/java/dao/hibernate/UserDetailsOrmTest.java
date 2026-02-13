@@ -1,8 +1,8 @@
 package dao.hibernate;
 
-import Entity.Gender;
-import Entity.User;
-import Entity.UserDetails;
+import entity.Gender;
+import entity.User;
+import entity.UserDetails;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.junit.jupiter.api.*;

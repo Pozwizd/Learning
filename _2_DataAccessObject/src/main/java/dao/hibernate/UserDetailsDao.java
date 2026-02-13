@@ -1,6 +1,6 @@
 package dao.hibernate;
 
-import Entity.UserDetails;
+import entity.UserDetails;
 
 public interface UserDetailsDao {
 

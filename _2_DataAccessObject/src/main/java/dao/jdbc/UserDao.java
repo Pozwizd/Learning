@@ -2,7 +2,6 @@ package dao.jdbc;
 
 import models.User;
 
-import java.sql.SQLException;
 import java.util.List;
 
 public interface UserDao {
@@ -13,7 +12,7 @@ public interface UserDao {
 
     User getUserById(int id);
 
-    List<User> getAllUsers() throws SQLException;
+    List<User> getAllUsers();
 
     void deleteUser(User user);
 }

@@ -1,6 +1,6 @@
 package dao.hibernate;
 
-import Entity.Order;
+import entity.Order;
 
 import java.util.List;
 

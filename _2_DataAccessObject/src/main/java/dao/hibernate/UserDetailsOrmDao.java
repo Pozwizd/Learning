@@ -1,7 +1,7 @@
 package dao.hibernate;
 
-import Entity.User;
-import Entity.UserDetails;
+import entity.User;
+import entity.UserDetails;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import utils.EntityManagerUtil;

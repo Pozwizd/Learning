@@ -1,6 +1,6 @@
 package dao.hibernate;
 
-import Entity.ShoppingCart;
+import entity.ShoppingCart;
 
 import java.util.List;
 
