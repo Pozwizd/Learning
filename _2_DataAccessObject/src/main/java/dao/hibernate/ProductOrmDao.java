@@ -1,6 +1,6 @@
 package dao.hibernate;
 
-import Entity.Product;
+import entity.Product;
 import utils.EntityManagerUtil;
 
 import javax.persistence.EntityManager;

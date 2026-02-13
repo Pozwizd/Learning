@@ -1,10 +1,10 @@
 package org.example;
 
-import Entity.Product;
-import Entity.ShoppingCart;
-import Entity.User;
+import entity.Product;
+import entity.ShoppingCart;
+import entity.User;
 import dao.hibernate.ShoppingCartOrmDao;
-import Entity.Order;
+import entity.Order;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.hibernate.SessionFactory;

@@ -1,8 +1,7 @@
 package dao.hibernate;
 
-import Entity.User;
+import entity.User;
 
-import java.sql.SQLException;
 import java.util.List;
 
 public interface UserDao {
@@ -13,7 +12,7 @@ public interface UserDao {
 
     User getUserById(long id);
 
-    List<User> getAllUsers() throws SQLException;
+    List<User> getAllUsers();
 
     void deleteUser(User user);
 }

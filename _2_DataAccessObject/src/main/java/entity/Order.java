@@ -1,14 +1,12 @@
-package Entity;
+package entity;
 
 import javax.persistence.*;
 
-@Entity
-@Table(name = "orders", schema = "shop2")
+@Entity(name = "orders")
 public class Order {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column
     private long id;
 
     @ManyToOne
@@ -24,14 +22,14 @@ public class Order {
     public Order() {
     }
 
-    public Order(int id, User user, String orderList, double totalPrice) {
-        this.id = id;
+    public Order(User user, String orderList, double totalPrice) {
         this.user = user;
         this.orderList = orderList;
         this.totalPrice = totalPrice;
     }
 
-    public Order(User user, String orderList, double totalPrice) {
+    public Order(long id, User user, String orderList, double totalPrice) {
+        this.id = id;
         this.user = user;
         this.orderList = orderList;
         this.totalPrice = totalPrice;
@@ -51,6 +49,9 @@ public class Order {
 
     public void setUser(User user) {
         this.user = user;
+        if (user != null && !user.getOrders().contains(this)) {
+            user.getOrders().add(this);
+        }
     }
 
     public String getOrderList() {

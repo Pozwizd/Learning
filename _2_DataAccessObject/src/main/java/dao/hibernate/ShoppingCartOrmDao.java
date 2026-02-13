@@ -1,7 +1,7 @@
 package dao.hibernate;
 
-import Entity.ShoppingCart;
-import Entity.User;
+import entity.ShoppingCart;
+import entity.User;
 import utils.EntityManagerUtil;
 
 import javax.persistence.EntityManager;
