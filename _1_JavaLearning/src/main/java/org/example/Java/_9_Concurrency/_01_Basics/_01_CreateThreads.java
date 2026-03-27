@@ -1,4 +1,4 @@
-﻿package org.example.Java._9_Concurrency._01_Basics;
+package org.example.Java._9_Concurrency._01_Basics;
 
 class CreateThreads {
     public static void main(String[] args) throws InterruptedException {

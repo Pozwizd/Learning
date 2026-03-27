@@ -1,4 +1,4 @@
-﻿package org.example.Java._2_GoFPatterns.Behavioral.Strategy;
+package org.example.Java._2_GoFPatterns.Behavioral.Strategy;
 
 interface VideoCardSettings {
     void setSettings();

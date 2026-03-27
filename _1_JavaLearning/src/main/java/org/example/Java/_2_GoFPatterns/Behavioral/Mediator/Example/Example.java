@@ -1,4 +1,4 @@
-﻿package org.example.Java._2_GoFPatterns.Behavioral.Mediator.Example;
+package org.example.Java._2_GoFPatterns.Behavioral.Mediator.Example;
 
 
 import java.util.ArrayList;

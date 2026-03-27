@@ -1,4 +1,4 @@
-﻿package org.example.Java._2_GoFPatterns.Creational.AbstractFactory;
+package org.example.Java._2_GoFPatterns.Creational.AbstractFactory;
 
 interface Computer {
     void run();

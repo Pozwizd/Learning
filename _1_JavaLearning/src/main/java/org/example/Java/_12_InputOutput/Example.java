@@ -1,4 +1,4 @@
-﻿package org.example.Java._12_InputOutput;
+package org.example.Java._12_InputOutput;
 
 import java.io.File;
 import java.io.FilenameFilter;

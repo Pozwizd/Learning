@@ -1,4 +1,4 @@
-﻿package org.example.Java._4_Algorithms.test;
+package org.example.Java._4_Algorithms.test;
 import java.util.*;
 import java.util.stream.Collectors;
 

@@ -1,4 +1,4 @@
-﻿package org.example.Java._3_Collections.TaskBonus;
+package org.example.Java._3_Collections.TaskBonus;
 
 public class MyHashMap<K, V> implements MyMap<K, V> {
     private static final int DEFAULT_CAPACITY = 16;

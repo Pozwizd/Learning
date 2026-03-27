@@ -1,4 +1,4 @@
-﻿package org.example.Java._4_Algorithms._01_Complexity;
+package org.example.Java._4_Algorithms._01_Complexity;
 
 /**
  * Демонстрация различных типов сложности алгоритмов

@@ -1,4 +1,4 @@
-﻿package org.example.Java._2_GoFPatterns.Behavioral.Visitor;
+package org.example.Java._2_GoFPatterns.Behavioral.Visitor;
 
 interface ProjectElement {
     void beWritten(Developer developer);

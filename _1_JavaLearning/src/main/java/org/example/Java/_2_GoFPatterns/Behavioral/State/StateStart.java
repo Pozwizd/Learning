@@ -1,4 +1,4 @@
-﻿package org.example.Java._2_GoFPatterns.Behavioral.State;
+package org.example.Java._2_GoFPatterns.Behavioral.State;
 
 
 interface ComputerState {

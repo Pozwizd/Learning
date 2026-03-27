@@ -1,4 +1,4 @@
-﻿package org.example.Java._2_GoFPatterns.Behavioral.chainOfResponsibility.Example1;
+package org.example.Java._2_GoFPatterns.Behavioral.chainOfResponsibility.Example1;
 
 /**
  * Интерфейс {@code RequestHandler} определяет контракт для обработчиков в цепочке.

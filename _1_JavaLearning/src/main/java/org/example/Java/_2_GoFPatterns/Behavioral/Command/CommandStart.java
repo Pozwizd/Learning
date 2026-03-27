@@ -1,4 +1,4 @@
-﻿package org.example.Java._2_GoFPatterns.Behavioral.Command;
+package org.example.Java._2_GoFPatterns.Behavioral.Command;
 
 
 import java.util.ArrayList;

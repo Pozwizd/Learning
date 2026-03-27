@@ -1,0 +1,22 @@
+<h1>Query params</h1>
+
+<label>
+  Поиск:
+  <input [value]="query" (input)="onQueryInput($event)" />
+</label>
+
+<label>
+  Статус:
+  <select [value]="status" (change)="onStatusChange($event)">
+    <option value="all">Все</option>
+    <option value="open">Открытые</option>
+    <option value="closed">Закрытые</option>
+  </select>
+</label>
+
+<button type="button" (click)="applyFilters()">Применить</button>
+
+<p>Текущий `q`: <strong>{{ query || '(пусто)' }}</strong></p>
+<p>Текущий `status`: <strong>{{ status }}</strong></p>
+
+<p><a routerLink="/">Назад на главную</a></p>

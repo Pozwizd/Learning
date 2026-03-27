@@ -1,4 +1,4 @@
-﻿package org.example.Java._3_Collections.Map;
+package org.example.Java._3_Collections.Map;
 
 import java.util.LinkedHashMap;
 import java.util.Map;

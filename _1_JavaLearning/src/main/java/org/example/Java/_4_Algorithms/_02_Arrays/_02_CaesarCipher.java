@@ -1,17 +1,25 @@
-﻿package org.example.Java._4_Algorithms._02_Arrays;
+package org.example.Java._4_Algorithms._02_Arrays;
 
 import java.util.Scanner;
 
 public class _02_CaesarCipher {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+
         System.out.print("Введите строку: ");
         String input = scanner.nextLine();
+
         System.out.print("Введите ключ шифрования: ");
+        if (!scanner.hasNextInt()) {
+            System.out.println("Ключ шифрования должен быть целым числом.");
+            return;
+        }
+
         int key = scanner.nextInt();
         scanner.nextLine();
+
         System.out.print("Зашифровать или расшифровать? (e/d): ");
-        String option = scanner.nextLine();
+        String option = scanner.nextLine().trim().toLowerCase();
 
         if (option.equals("e")) {
             CaesarCipher caesarCipher = new CaesarCipher(key, input);
@@ -20,7 +28,7 @@ public class _02_CaesarCipher {
             CaesarDecipher caesarDecipher = new CaesarDecipher(key, input);
             System.out.println("Результат расшифрования: " + caesarDecipher.output());
         } else {
-            System.out.println("Некорректный ввод");
+            System.out.println("Некорректный режим. Используйте e или d.");
         }
     }
 }

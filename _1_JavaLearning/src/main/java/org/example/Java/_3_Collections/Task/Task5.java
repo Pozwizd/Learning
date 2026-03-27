@@ -1,4 +1,4 @@
-﻿package org.example.Java._3_Collections.Task;
+package org.example.Java._3_Collections.Task;
 
 /*
 Проверить скорость работы основных коллекций интерфейса List(ArrayList, LinkedList).

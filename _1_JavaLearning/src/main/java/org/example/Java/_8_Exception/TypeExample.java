@@ -1,4 +1,4 @@
-﻿package org.example.Java._8_Exception;
+package org.example.Java._8_Exception;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;

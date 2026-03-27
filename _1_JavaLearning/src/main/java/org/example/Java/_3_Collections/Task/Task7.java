@@ -1,4 +1,4 @@
-﻿package org.example.Java._3_Collections.Task;
+package org.example.Java._3_Collections.Task;
 
 /*
 Создать класс сортировок, в котором создать 5 статических методов, каждый из которых должен сортировать массив своим способом.

@@ -1,4 +1,4 @@
-﻿package org.example.Java._1_OOP;
+package org.example.Java._1_OOP;
 
 public class Main {
     public static void main(String[] args) {

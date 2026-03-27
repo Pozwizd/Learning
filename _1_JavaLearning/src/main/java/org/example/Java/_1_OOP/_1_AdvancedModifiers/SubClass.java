@@ -1,4 +1,4 @@
-﻿package org.example.Java._1_OOP._1_AdvancedModifiers;
+package org.example.Java._1_OOP._1_AdvancedModifiers;
 
 /**
  * Этот класс находится в ТОМ ЖЕ ПАКЕТЕ, что и BaseClass.

@@ -1,0 +1,17 @@
+<h1>Параметры маршрута (`:id`)</h1>
+
+@if (product) {
+  <p>Товар: <strong>{{ product.name }}</strong></p>
+  <p>Категория: {{ product.category }}</p>
+} @else {
+  <p>Товар не найден.</p>
+}
+
+<p>
+  Быстрые переходы:
+  <a routerLink="/lab-b/product/1">1</a>,
+  <a routerLink="/lab-b/product/2">2</a>,
+  <a routerLink="/lab-b/product/3">3</a>
+</p>
+
+<p><a routerLink="/">Назад на главную</a></p>

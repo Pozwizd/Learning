@@ -1,4 +1,4 @@
-﻿package org.example.Java._2_GoFPatterns.Structural.Proxy;
+package org.example.Java._2_GoFPatterns.Structural.Proxy;
 
 interface Project {
     void run();

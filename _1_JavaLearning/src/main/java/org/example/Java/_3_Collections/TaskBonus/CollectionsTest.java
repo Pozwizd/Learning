@@ -1,4 +1,4 @@
-﻿package org.example.Java._3_Collections.TaskBonus;
+package org.example.Java._3_Collections.TaskBonus;
 
 public class CollectionsTest {
     public static void main(String[] args) {

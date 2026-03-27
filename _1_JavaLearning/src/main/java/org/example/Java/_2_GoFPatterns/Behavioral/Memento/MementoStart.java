@@ -1,4 +1,4 @@
-﻿package org.example.Java._2_GoFPatterns.Behavioral.Memento;
+package org.example.Java._2_GoFPatterns.Behavioral.Memento;
 
 class GameMemento {
     private final String level;

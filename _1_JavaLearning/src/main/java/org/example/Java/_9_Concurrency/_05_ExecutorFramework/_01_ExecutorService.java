@@ -1,4 +1,4 @@
-﻿package org.example.Java._9_Concurrency._05_ExecutorFramework;
+package org.example.Java._9_Concurrency._05_ExecutorFramework;
 
 import java.time.LocalDateTime;
 import java.util.concurrent.*;

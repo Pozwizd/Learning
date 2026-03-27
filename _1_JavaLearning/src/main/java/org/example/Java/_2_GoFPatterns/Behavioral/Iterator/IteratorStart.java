@@ -1,4 +1,4 @@
-﻿package org.example.Java._2_GoFPatterns.Behavioral.Iterator;
+package org.example.Java._2_GoFPatterns.Behavioral.Iterator;
 
 import java.util.ArrayList;
 import java.util.Iterator;

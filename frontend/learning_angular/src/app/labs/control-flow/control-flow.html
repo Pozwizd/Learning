@@ -1,0 +1,32 @@
+<h1>Управляющие блоки шаблона</h1>
+
+<p>Текущий фильтр: <strong>{{ filter }}</strong></p>
+<button type="button" (click)="setFilter('all')">Все</button>
+<button type="button" (click)="setFilter('todo')">К выполнению</button>
+<button type="button" (click)="setFilter('in_progress')">В работе</button>
+<button type="button" (click)="setFilter('done')">Готово</button>
+
+@if (filteredTasks().length === 0) {
+  <p>Для этого фильтра задач нет.</p>
+} @else {
+  <ul>
+    @for (task of filteredTasks(); track task.id) {
+      <li>
+        <strong>{{ task.title }}</strong>
+        @switch (task.status) {
+          @case ('todo') {
+            <span> - К выполнению</span>
+          }
+          @case ('in_progress') {
+            <span> - В работе</span>
+          }
+          @default {
+            <span> - Готово</span>
+          }
+        }
+      </li>
+    }
+  </ul>
+}
+
+<p><a routerLink="/">Назад к списку лабораторных</a></p>

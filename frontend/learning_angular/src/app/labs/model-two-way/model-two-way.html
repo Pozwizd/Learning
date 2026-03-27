@@ -1,0 +1,12 @@
+<h1>model() двусторонняя связь</h1>
+
+<p>Приоритет в родительском компоненте: <strong>{{ priority }}</strong> ({{ priorityLabel() }})</p>
+
+<!--
+  [(priority)]="priority" — синтаксис banana-in-a-box:
+  одновременно [priority] + (priorityChange).
+  Для Java-разработчика: это двусторонняя синхронизация состояния parent/child без ручного listener-кода.
+-->
+<app-priority-selector [(priority)]="priority"></app-priority-selector>
+
+<p><a routerLink="/">Назад к списку лабораторных</a></p>

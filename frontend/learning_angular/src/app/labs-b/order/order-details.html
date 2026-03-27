@@ -1,0 +1,17 @@
+<h1>Resolver: детали заказа</h1>
+
+@if (order) {
+  <p>ID заказа: <strong>{{ order.id }}</strong></p>
+  <p>Клиент: {{ order.customer }}</p>
+  <p>Сумма: {{ order.total }}</p>
+} @else {
+  <p>Заказ не найден.</p>
+}
+
+<p>
+  Примеры:
+  <a routerLink="/lab-b/order/100">100</a>,
+  <a routerLink="/lab-b/order/200">200</a>,
+  <a routerLink="/lab-b/order/300">300</a>
+</p>
+<p><a routerLink="/">Назад на главную</a></p>

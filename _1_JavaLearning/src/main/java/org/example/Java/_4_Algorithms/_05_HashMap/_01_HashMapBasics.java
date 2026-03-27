@@ -1,4 +1,4 @@
-﻿package org.example.Java._4_Algorithms._05_HashMap;
+package org.example.Java._4_Algorithms._05_HashMap;
 
 import java.util.HashMap;
 import java.util.Map;

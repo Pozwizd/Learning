@@ -1,4 +1,4 @@
-﻿package org.example.Java._9_Concurrency._10_Problems;
+package org.example.Java._9_Concurrency._10_Problems;
 
 /**
  * Демонстрация проблемы Livelock

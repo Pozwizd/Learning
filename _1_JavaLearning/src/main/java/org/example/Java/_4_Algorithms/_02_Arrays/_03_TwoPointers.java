@@ -1,4 +1,4 @@
-﻿package org.example.Java._4_Algorithms._02_Arrays;
+package org.example.Java._4_Algorithms._02_Arrays;
 
 /**
  * Техника Two Pointers для работы с массивами

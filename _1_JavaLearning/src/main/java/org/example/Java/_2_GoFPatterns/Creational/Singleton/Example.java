@@ -1,4 +1,4 @@
-﻿package org.example.Java._2_GoFPatterns.Creational.Singleton;
+package org.example.Java._2_GoFPatterns.Creational.Singleton;
 
 class Singleton {
     private static Singleton instance;

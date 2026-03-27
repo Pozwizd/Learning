@@ -1,4 +1,4 @@
-﻿package org.example.Java._1_OOP._1_AdvancedModifiers;
+package org.example.Java._1_OOP._1_AdvancedModifiers;
 
 /**
  * Этот абстрактный класс является основой для демонстрации модификаторов доступа.

@@ -1,4 +1,4 @@
-﻿package org.example.Java._3_Collections.Collections.Set;
+package org.example.Java._3_Collections.Collections.Set;
 
 import java.util.TreeSet;
 import java.util.Iterator;

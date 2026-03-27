@@ -1,0 +1,26 @@
+<h1>Пайпы</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Сумма</th>
+      <th>Создано</th>
+      <th>Статус</th>
+    </tr>
+  </thead>
+  <tbody>
+    @for (order of orders; track order.id) {
+      <tr>
+        <td>{{ order.id }}</td>
+        <!-- currency/date/uppercase — встроенные пайпы Angular -->
+        <td>{{ order.amount | currency:'USD' }}</td>
+        <td>{{ order.createdAt | date:'mediumDate' }}</td>
+        <!-- statusLabel — наш кастомный пайп, затем uppercase для визуального акцента -->
+        <td>{{ order.status | statusLabel | uppercase }}</td>
+      </tr>
+    }
+  </tbody>
+</table>
+
+<p><a routerLink="/">Назад к списку лабораторных</a></p>

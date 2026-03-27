@@ -1,4 +1,4 @@
-﻿package org.example.Java._3_Collections.Task;
+package org.example.Java._3_Collections.Task;
 
 /*
 Создать класс, который будет хранить в себе данные пользователя,

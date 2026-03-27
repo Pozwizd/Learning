@@ -1,4 +1,4 @@
-﻿package org.example.Java._9_Concurrency._09_CompletableFuture;
+package org.example.Java._9_Concurrency._09_CompletableFuture;
 
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.ExecutionException;

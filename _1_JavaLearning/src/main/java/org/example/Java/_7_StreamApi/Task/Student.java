@@ -1,4 +1,4 @@
-﻿package org.example.Java._7_StreamApi.Task;
+package org.example.Java._7_StreamApi.Task;
 
 public class Student {
     String name;

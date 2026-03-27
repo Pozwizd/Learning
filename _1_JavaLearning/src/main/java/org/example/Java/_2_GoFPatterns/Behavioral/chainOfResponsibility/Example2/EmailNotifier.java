@@ -1,4 +1,4 @@
-﻿package org.example.Java._2_GoFPatterns.Behavioral.chainOfResponsibility.Example2;
+package org.example.Java._2_GoFPatterns.Behavioral.chainOfResponsibility.Example2;
 
 /**
  * Класс {@code EmailNotifier} является конкретной реализацией

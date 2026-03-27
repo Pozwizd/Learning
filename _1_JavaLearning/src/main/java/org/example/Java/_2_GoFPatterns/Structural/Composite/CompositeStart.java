@@ -1,4 +1,4 @@
-﻿package org.example.Java._2_GoFPatterns.Structural.Composite;
+package org.example.Java._2_GoFPatterns.Structural.Composite;
 
 import java.util.ArrayList;
 import java.util.List;

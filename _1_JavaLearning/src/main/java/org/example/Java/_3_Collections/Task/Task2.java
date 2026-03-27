@@ -1,4 +1,4 @@
-﻿package org.example.Java._3_Collections.Task;
+package org.example.Java._3_Collections.Task;
 
 /*
 Заказчик из прошлого задания решил обновить требования к программе.

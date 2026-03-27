@@ -1,4 +1,4 @@
-﻿package org.example.Java._1_OOP;
+package org.example.Java._1_OOP;
 
 /**
  * АБСТРАКЦИЯ: Это абстрактный класс, который нельзя инстанцировать напрямую.

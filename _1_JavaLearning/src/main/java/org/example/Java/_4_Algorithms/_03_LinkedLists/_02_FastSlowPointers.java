@@ -1,4 +1,4 @@
-﻿package org.example.Java._4_Algorithms._03_LinkedLists;
+package org.example.Java._4_Algorithms._03_LinkedLists;
 
 /**
  * Техника Fast & Slow Pointers (Floyd's Cycle Detection)

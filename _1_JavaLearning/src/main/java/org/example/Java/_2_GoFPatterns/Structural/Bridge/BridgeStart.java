@@ -1,4 +1,4 @@
-﻿package org.example.Java._2_GoFPatterns.Structural.Bridge;
+package org.example.Java._2_GoFPatterns.Structural.Bridge;
 
 interface Processor {
     void powerOn();

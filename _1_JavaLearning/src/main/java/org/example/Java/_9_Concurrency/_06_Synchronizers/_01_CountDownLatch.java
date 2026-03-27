@@ -1,4 +1,4 @@
-﻿package org.example.Java._9_Concurrency._06_Synchronizers;
+package org.example.Java._9_Concurrency._06_Synchronizers;
 
 import java.util.concurrent.CountDownLatch;
 

@@ -1,4 +1,4 @@
-﻿package org.example.Java._2_GoFPatterns.Creational.factoryMethod;
+package org.example.Java._2_GoFPatterns.Creational.factoryMethod;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -1,4 +1,4 @@
-﻿package org.example.Java._13_RegEx;
+package org.example.Java._13_RegEx;
 
 import java.util.Scanner;
 import java.util.regex.Matcher;

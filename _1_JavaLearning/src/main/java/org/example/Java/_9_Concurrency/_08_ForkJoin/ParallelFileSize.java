@@ -1,4 +1,4 @@
-﻿package org.example.Java._9_Concurrency._08_ForkJoin;
+package org.example.Java._9_Concurrency._08_ForkJoin;
 
 import java.io.IOException;
 import java.nio.file.*;

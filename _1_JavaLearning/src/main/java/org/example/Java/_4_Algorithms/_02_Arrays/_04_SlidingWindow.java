@@ -1,4 +1,4 @@
-﻿package org.example.Java._4_Algorithms._02_Arrays;
+package org.example.Java._4_Algorithms._02_Arrays;
 
 /**
  * Техника Sliding Window (Скользящее окно)

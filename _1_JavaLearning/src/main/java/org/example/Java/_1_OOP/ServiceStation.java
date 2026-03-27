@@ -1,4 +1,4 @@
-﻿package org.example.Java._1_OOP;
+package org.example.Java._1_OOP;
 
 /**
  * ДОСТУП PACKAGE-PRIVATE (ПО УМОЛЧАНИЮ): У этого класса нет модификатора public,

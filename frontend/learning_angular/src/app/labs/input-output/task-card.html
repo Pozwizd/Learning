@@ -1,0 +1,5 @@
+<article>
+  <strong>{{ task().title }}</strong>
+  <small> ({{ task().status }}) </small>
+  <button type="button" (click)="remove.emit()">Удалить</button>
+</article>

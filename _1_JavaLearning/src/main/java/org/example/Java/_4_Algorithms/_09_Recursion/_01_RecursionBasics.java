@@ -1,4 +1,4 @@
-﻿package org.example.Java._4_Algorithms._09_Recursion;
+package org.example.Java._4_Algorithms._09_Recursion;
 
 /**
  * Основы рекурсии

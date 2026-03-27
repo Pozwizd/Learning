@@ -1,0 +1,16 @@
+<h1>Входы и выходы (input / output)</h1>
+
+@if (tasks().length === 0) {
+  <p>Все задачи удалены.</p>
+} @else {
+  <!--
+    [task]="task" — передаем данные вниз (input).
+    (remove)="removeTask(task.id)" — слушаем событие от дочернего компонента (output).
+    Для Java-разработчика: это похоже на однонаправленный поток данных + callback-обработчик.
+  -->
+  @for (task of tasks(); track task.id) {
+    <app-task-card [task]="task" (remove)="removeTask(task.id)"></app-task-card>
+  }
+}
+
+<p><a routerLink="/">Назад к списку лабораторных</a></p>

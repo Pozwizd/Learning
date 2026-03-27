@@ -1,4 +1,4 @@
-﻿package org.example.Java._7_StreamApi.OldTask;
+package org.example.Java._7_StreamApi.OldTask;
 
 import java.util.Objects;
 

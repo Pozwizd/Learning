@@ -1,0 +1,34 @@
+<h1>Базовые биндинги</h1>
+
+<label>
+  Введите имя:
+  <!--
+    [value]="name" — property binding: значение DOM-свойства input берется из поля компонента.
+    (input)="onNameInput($event)" — event binding: на каждое input-событие вызываем метод.
+    Для Java-разработчика: это как "getter + listener", только декларативно в шаблоне.
+  -->
+  <input [value]="name" (input)="onNameInput($event)" />
+</label>
+
+<p>Привет, {{ name || 'аноним' }}.</p>
+
+<!--
+  [disabled]="..." — условное управление свойством кнопки.
+  [title]="cond ? a : b" — тернарный оператор в шаблоне (аналог Java).
+  (click)="confirm()" — вызов метода только когда кнопка доступна.
+  Это похоже на серверную валидацию DTO, но выполняется сразу в UI.
+-->
+<button
+  type="button"
+  [disabled]="name.trim().length < 3"
+  [title]="name.trim().length < 3 ? 'Введите минимум 3 символа' : 'Готово'"
+  (click)="confirm()"
+>
+  Подтвердить
+</button>
+
+@if (confirmedName) {
+  <p>Подтвержденное имя: <strong>{{ confirmedName }}</strong></p>
+}
+
+<p><a routerLink="/">Назад к списку лабораторных</a></p>

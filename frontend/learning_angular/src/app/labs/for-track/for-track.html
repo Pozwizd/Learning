@@ -1,0 +1,27 @@
+<h1>&#64;for с track</h1>
+
+<label>
+  Название карточки:
+  <input [value]="newLabel" (input)="onInput($event)" />
+</label>
+<button type="button" (click)="addCard()">Добавить карточку</button>
+
+@if (cards.length === 0) {
+  <p>Список пуст.</p>
+} @else {
+  <!--
+    track card.id — ключ стабильной идентичности элемента.
+    Для Java-разработчика: это похоже на бизнес-ключ entity (id),
+    чтобы фреймворк не "пересоздавал" DOM-элементы без необходимости.
+  -->
+  <ul>
+    @for (card of cards; track card.id) {
+      <li>
+        {{ card.id }} - {{ card.label }}
+        <button type="button" (click)="removeCard(card.id)">Удалить</button>
+      </li>
+    }
+  </ul>
+}
+
+<p><a routerLink="/">Назад к списку лабораторных</a></p>

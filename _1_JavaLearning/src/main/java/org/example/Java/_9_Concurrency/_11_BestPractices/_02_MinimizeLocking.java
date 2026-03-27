@@ -1,4 +1,4 @@
-﻿package org.example.Java._9_Concurrency._11_BestPractices;
+package org.example.Java._9_Concurrency._11_BestPractices;
 
 /**
  * Best Practice: Минимизация области блокировки

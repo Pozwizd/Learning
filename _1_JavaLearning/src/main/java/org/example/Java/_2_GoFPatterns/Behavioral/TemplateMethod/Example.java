@@ -1,4 +1,4 @@
-﻿package org.example.Java._2_GoFPatterns.Behavioral.TemplateMethod;
+package org.example.Java._2_GoFPatterns.Behavioral.TemplateMethod;
 
 class WelcomePage extends WebSiteTemplate {
 

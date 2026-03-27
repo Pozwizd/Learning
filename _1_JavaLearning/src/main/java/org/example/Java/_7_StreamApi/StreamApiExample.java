@@ -1,4 +1,4 @@
-﻿package org.example.Java._7_StreamApi;
+package org.example.Java._7_StreamApi;
 
 import java.util.*;
 import java.util.stream.*;

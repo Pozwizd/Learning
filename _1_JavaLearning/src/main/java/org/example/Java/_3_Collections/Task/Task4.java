@@ -1,4 +1,4 @@
-﻿package org.example.Java._3_Collections.Task;
+package org.example.Java._3_Collections.Task;
 /*
 И снова заказчик решил изменить работу программы.
 На этот раз он хочет, чтобы в списке гос номеров автомобилей были и их владельцы.

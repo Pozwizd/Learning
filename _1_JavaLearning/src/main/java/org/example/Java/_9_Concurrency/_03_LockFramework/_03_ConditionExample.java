@@ -1,4 +1,4 @@
-﻿package org.example.Java._9_Concurrency._03_LockFramework;
+package org.example.Java._9_Concurrency._03_LockFramework;
 
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.Lock;

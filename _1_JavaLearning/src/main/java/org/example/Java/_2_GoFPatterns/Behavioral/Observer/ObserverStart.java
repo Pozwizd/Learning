@@ -1,4 +1,4 @@
-﻿package org.example.Java._2_GoFPatterns.Behavioral.Observer;
+package org.example.Java._2_GoFPatterns.Behavioral.Observer;
 
 import java.util.ArrayList;
 

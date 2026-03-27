@@ -1,4 +1,4 @@
-﻿package org.example.Java._4_Algorithms._11_Greedy;
+package org.example.Java._4_Algorithms._11_Greedy;
 
 import java.util.ArrayList;
 import java.util.List;

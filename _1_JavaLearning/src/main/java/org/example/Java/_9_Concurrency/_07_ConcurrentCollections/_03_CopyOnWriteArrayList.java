@@ -1,4 +1,4 @@
-﻿package org.example.Java._9_Concurrency._07_ConcurrentCollections;
+package org.example.Java._9_Concurrency._07_ConcurrentCollections;
 
 import java.util.concurrent.CopyOnWriteArrayList;
 

@@ -1,4 +1,4 @@
-﻿package org.example.Java._3_Collections.Task;
+package org.example.Java._3_Collections.Task;
 
 /*
 Заказчик снова изменил требования, теперь ему не важен порядок в списке автомобилей,

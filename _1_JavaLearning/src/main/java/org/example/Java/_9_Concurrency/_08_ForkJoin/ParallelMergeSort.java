@@ -1,4 +1,4 @@
-﻿package org.example.Java._9_Concurrency._08_ForkJoin;
+package org.example.Java._9_Concurrency._08_ForkJoin;
 
 import java.util.Arrays;
 import java.util.Random;

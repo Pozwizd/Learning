@@ -1,4 +1,4 @@
-﻿package org.example.Java._2_GoFPatterns.Structural.Decorator;
+package org.example.Java._2_GoFPatterns.Structural.Decorator;
 
 import java.io.*;
 import java.util.Base64;

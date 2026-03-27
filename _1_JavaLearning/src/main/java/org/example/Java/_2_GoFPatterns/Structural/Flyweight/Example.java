@@ -1,4 +1,4 @@
-﻿package org.example.Java._2_GoFPatterns.Structural.Flyweight;
+package org.example.Java._2_GoFPatterns.Structural.Flyweight;
 
 import java.util.ArrayList;
 import java.util.HashMap;

@@ -1,4 +1,4 @@
-﻿package org.example.Java._3_Collections.Collections.Queue;
+package org.example.Java._3_Collections.Collections.Queue;
 
 import java.util.Queue;
 import java.util.concurrent.ConcurrentLinkedQueue;

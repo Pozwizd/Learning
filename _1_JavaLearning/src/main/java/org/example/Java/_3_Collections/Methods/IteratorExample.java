@@ -1,4 +1,4 @@
-﻿package org.example.Java._3_Collections.Methods;
+package org.example.Java._3_Collections.Methods;
 
 import java.util.ArrayList;
 import java.util.Iterator;

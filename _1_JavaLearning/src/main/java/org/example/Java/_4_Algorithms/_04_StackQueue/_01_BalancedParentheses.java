@@ -1,4 +1,4 @@
-﻿package org.example.Java._4_Algorithms._04_StackQueue;
+package org.example.Java._4_Algorithms._04_StackQueue;
 
 import java.util.Scanner;
 import java.util.Stack;

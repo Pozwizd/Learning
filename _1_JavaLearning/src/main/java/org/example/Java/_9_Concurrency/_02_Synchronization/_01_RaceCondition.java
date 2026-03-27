@@ -1,4 +1,4 @@
-﻿package org.example.Java._9_Concurrency._02_Synchronization;
+package org.example.Java._9_Concurrency._02_Synchronization;
 
 /**
  * Демонстрация проблемы Race Condition

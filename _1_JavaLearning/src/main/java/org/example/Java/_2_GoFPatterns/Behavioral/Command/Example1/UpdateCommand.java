@@ -1,4 +1,4 @@
-﻿package org.example.Java._2_GoFPatterns.Behavioral.Command.Example1;
+package org.example.Java._2_GoFPatterns.Behavioral.Command.Example1;
 
 /**
  * Класс {@code UpdateCommand} является конкретной реализацией команды

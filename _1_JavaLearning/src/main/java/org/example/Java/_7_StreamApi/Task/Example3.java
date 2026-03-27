@@ -1,4 +1,4 @@
-﻿package org.example.Java._7_StreamApi.Task;
+package org.example.Java._7_StreamApi.Task;
 
 import java.util.Arrays;
 import java.util.List;

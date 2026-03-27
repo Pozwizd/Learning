@@ -1,4 +1,4 @@
-﻿package org.example.Java._2_GoFPatterns.Structural.Facade;
+package org.example.Java._2_GoFPatterns.Structural.Facade;
 
 import java.io.File;
 

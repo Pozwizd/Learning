@@ -1,4 +1,4 @@
-﻿package org.example.Java._8_Exception;
+package org.example.Java._8_Exception;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

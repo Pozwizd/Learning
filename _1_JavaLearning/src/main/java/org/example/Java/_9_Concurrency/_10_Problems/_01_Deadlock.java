@@ -1,4 +1,4 @@
-﻿package org.example.Java._9_Concurrency._10_Problems;
+package org.example.Java._9_Concurrency._10_Problems;
 
 public class _01_Deadlock {
     public static void main(String[] args) {

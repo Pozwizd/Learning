@@ -1,4 +1,4 @@
-﻿package org.example.Java._2_GoFPatterns.Behavioral.Command.Example1;
+package org.example.Java._2_GoFPatterns.Behavioral.Command.Example1;
 
 /**
  * Интерфейс {@code Command} (Команда) объявляет метод для выполнения операции.

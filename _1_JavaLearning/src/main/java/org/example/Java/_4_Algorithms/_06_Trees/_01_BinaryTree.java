@@ -1,4 +1,4 @@
-﻿package org.example.Java._4_Algorithms._06_Trees;
+package org.example.Java._4_Algorithms._06_Trees;
 
 import java.util.LinkedList;
 import java.util.Queue;

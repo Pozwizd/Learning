@@ -1,4 +1,4 @@
-﻿package org.example.Java._1_OOP;
+package org.example.Java._1_OOP;
 
 /**
  * НАСЛЕДОВАНИЕ: Класс Motorcycle также расширяет Vehicle.

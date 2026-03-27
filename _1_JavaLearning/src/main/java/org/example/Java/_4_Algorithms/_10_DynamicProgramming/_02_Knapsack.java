@@ -1,4 +1,4 @@
-﻿package org.example.Java._4_Algorithms._10_DynamicProgramming;
+package org.example.Java._4_Algorithms._10_DynamicProgramming;
 
 /**
  * Задача о рюкзаке (0/1 Knapsack Problem)

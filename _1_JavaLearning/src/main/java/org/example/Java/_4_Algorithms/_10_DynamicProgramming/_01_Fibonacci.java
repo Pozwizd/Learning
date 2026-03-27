@@ -1,4 +1,4 @@
-﻿package org.example.Java._4_Algorithms._10_DynamicProgramming;
+package org.example.Java._4_Algorithms._10_DynamicProgramming;
 
 import java.util.HashMap;
 import java.util.Map;

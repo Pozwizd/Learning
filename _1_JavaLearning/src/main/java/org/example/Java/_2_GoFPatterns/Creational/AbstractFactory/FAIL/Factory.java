@@ -1,4 +1,4 @@
-﻿package org.example.Java._2_GoFPatterns.Creational.AbstractFactory.FAIL;
+package org.example.Java._2_GoFPatterns.Creational.AbstractFactory.FAIL;
 
 interface ComputerFactory {
     Computer createComputer();

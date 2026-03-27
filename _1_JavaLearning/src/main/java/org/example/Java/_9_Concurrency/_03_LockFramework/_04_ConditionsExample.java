@@ -1,4 +1,4 @@
-﻿package org.example.Java._9_Concurrency._03_LockFramework;
+package org.example.Java._9_Concurrency._03_LockFramework;
 
 
 public class _04_ConditionsExample {

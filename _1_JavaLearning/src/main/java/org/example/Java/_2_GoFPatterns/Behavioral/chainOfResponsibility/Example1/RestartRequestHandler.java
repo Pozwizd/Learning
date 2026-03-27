@@ -1,4 +1,4 @@
-﻿package org.example.Java._2_GoFPatterns.Behavioral.chainOfResponsibility.Example1;
+package org.example.Java._2_GoFPatterns.Behavioral.chainOfResponsibility.Example1;
 
 /**
  * Класс {@code RestartRequestHandler} является конечным обработчиком

@@ -1,4 +1,4 @@
-﻿package org.example.Java._2_GoFPatterns.Creational.factoryMethod;
+package org.example.Java._2_GoFPatterns.Creational.factoryMethod;
 
 // Универсальная фабрика
 public class UniversalFactory {

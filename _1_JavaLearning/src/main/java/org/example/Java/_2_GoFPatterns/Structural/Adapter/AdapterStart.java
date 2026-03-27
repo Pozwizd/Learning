@@ -1,4 +1,4 @@
-﻿package org.example.Java._2_GoFPatterns.Structural.Adapter;
+package org.example.Java._2_GoFPatterns.Structural.Adapter;
 
 
 interface PCI {

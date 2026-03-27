@@ -1,0 +1,8 @@
+<h1>Логин для guard-демо</h1>
+<p>Статус: <strong>{{ isLoggedIn() ? 'Авторизован' : 'Не авторизован' }}</strong></p>
+
+<button type="button" (click)="login()">Войти</button>
+<button type="button" (click)="logout()">Выйти</button>
+
+<p><a routerLink="/lab-b/private">Открыть приватную страницу</a></p>
+<p><a routerLink="/">Назад на главную</a></p>

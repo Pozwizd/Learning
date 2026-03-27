@@ -1,4 +1,4 @@
-﻿package org.example.Java._3_Collections.Task;
+package org.example.Java._3_Collections.Task;
 
 /*
   Предположим, что Вы разрабатываете программу для учета автомобилей на парковке.

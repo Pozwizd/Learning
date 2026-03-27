@@ -1,4 +1,4 @@
-﻿package org.example.Java._1_OOP._1_AdvancedModifiers.another_package;
+package org.example.Java._1_OOP._1_AdvancedModifiers.another_package;
 
 import org.example.Java._1_OOP._1_AdvancedModifiers.BaseClass;
 

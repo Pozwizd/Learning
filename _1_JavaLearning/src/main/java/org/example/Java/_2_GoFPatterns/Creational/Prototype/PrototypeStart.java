@@ -1,4 +1,4 @@
-﻿package org.example.Java._2_GoFPatterns.Creational.Prototype;
+package org.example.Java._2_GoFPatterns.Creational.Prototype;
 
 interface CopyComputer {
     Object copyComputer();

@@ -1,4 +1,4 @@
-﻿package org.example.Java._3_Collections.Methods;
+package org.example.Java._3_Collections.Methods;
 
 public class GenericsExample<T extends Number> {
     private T content;

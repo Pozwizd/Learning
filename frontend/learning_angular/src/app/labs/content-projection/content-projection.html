@@ -1,0 +1,15 @@
+<h1>Проекция контента</h1>
+
+@for (card of cards; track card.id) {
+  <!--
+    card-title и card-footer — это маркеры для select="[...]" внутри app-card-shell.
+    Так мы заполняем "слоты" shell-компонента нужным контентом.
+  -->
+  <app-card-shell>
+    <span card-title>{{ card.title }}</span>
+    <p>{{ card.body }}</p>
+    <button card-footer type="button">{{ card.action }}</button>
+  </app-card-shell>
+}
+
+<p><a routerLink="/">Назад к списку лабораторных</a></p>

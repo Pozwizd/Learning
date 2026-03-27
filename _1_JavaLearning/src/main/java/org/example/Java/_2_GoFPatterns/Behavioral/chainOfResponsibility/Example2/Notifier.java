@@ -1,4 +1,4 @@
-﻿package org.example.Java._2_GoFPatterns.Behavioral.chainOfResponsibility.Example2;
+package org.example.Java._2_GoFPatterns.Behavioral.chainOfResponsibility.Example2;
 
 /**
  * Абстрактный класс {@code Notifier} определяет базовую структуру для всех

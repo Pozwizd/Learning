@@ -1,4 +1,4 @@
-﻿package org.example.Java._9_Concurrency._04_Atomic;
+package org.example.Java._9_Concurrency._04_Atomic;
 
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.atomic.AtomicReference;

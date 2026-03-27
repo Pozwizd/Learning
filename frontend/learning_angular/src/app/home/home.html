@@ -1,0 +1,23 @@
+<h1>Angular лабораторные</h1>
+<p>Выбери блок и открой нужную страницу.</p>
+
+<h2>Блок A</h2>
+<ul>
+  @for (item of blockA; track item.path) {
+    <li><a [routerLink]="item.path">{{ item.title }}</a></li>
+  }
+</ul>
+
+<h2>Блок B</h2>
+<ul>
+  @for (item of blockB; track item.path) {
+    <li><a [routerLink]="item.path">{{ item.title }}</a></li>
+  }
+</ul>
+
+<h2>Дополнительно</h2>
+<ul>
+  @for (item of extra; track item.path) {
+    <li><a [routerLink]="item.path">{{ item.title }}</a></li>
+  }
+</ul>

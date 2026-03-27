@@ -1,4 +1,4 @@
-﻿package org.example.Java._3_Collections.TaskBonus;
+package org.example.Java._3_Collections.TaskBonus;
 
 public interface Queue<T> {
     T offer();

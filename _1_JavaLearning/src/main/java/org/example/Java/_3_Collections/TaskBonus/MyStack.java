@@ -1,4 +1,4 @@
-﻿package org.example.Java._3_Collections.TaskBonus;
+package org.example.Java._3_Collections.TaskBonus;
 
 import java.util.Iterator;
 
